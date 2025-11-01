@@ -20,7 +20,7 @@ A Python maze generator and solver using pygame, with real-time animation and co
 
 
 ## Explaination :
-- Generation Mechanics
+- ## Generation Mechanics
   Okay i suck at explaining but i will give you what i know, how this maze generation works is that by taking a an empty grid of 25x25, each loop the "gen"(the cell that generates the maze in the begining) moves a step either up, down, left or right. while doing this it marks the path it travels as 0,1,2,3.... and so on. How it decides this is, first every cell in the grid in the begining is labbeled 0. when the cell checks for which neighbouring cell to go to, it checks if that cell has the value 0, if it does it has not been visited and is a available option for travel, if it doesnt and has some other number, it has already been visited and doesnt include that cell. During this checking(we will name this checking system "check1"), it adds the avaible options for travel(the row and coloumn of the available cell in format [row,col]) to a list called *ncell*, which refreshes every loop. the next cell will be choosen from this list
   
 - Wall drawing Mechanics
