@@ -45,3 +45,6 @@ A Python maze generator and solver using pygame, with real-time animation and co
 - A **Track** button, that tracks the path taken by the mouse in real time.
 - A **Speed** button, to allow the user to control the speed of the mouse.
 - And some generation animation, so you can see the emaze being generated in real time.
+
+## 💬 Feedback
+  Feel free to leave a comment in Discussions or open an Issue!
