@@ -10,7 +10,7 @@ A Python maze generator and solver using pygame, with real-time animation and co
 
 
 ## IMP NOTE!! :
-- This is one of my first "big" projects is i gotta say this code isnt much optimised ;-;.
+- This is one of my FIRST "big" projects, so i gotta say this code isnt much optimised ;-;.
 - The Gui is fixed at resolution 1200x750 and thus the window may clip out of screen for smaller resolution, so i advise changing the resolution of your screen to any adequatue size.
 
 
